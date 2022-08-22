@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3-Step-Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="color.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="box username">
+            <div class="user-box">
+                <label for="name">Username: </label>
+                <input type="text" class="user-name" id="name" placeholder="Enter Your Username">
+            </div>
+            <div>
+                <button class="btn name next">Next</button>
+            </div>
+        </div>
+
+        <div class="box email hidden">
+            <div class="user-box">
+                <label for="email">Email: </label>
+                <input type="email" class="user-email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="btn email-btn">
+                <button class="btn email back">Back</button>
+                <button class="btn email next">Next</button>
+            </div>
+        </div>
+
+        <div class="box password hidden">
+            <div class="user-box">
+                <label for="password">Password: </label>
+                <input type="password" class="user-password" id="password" placeholder="Enter Your Password">
+            </div>
+            <div class="btn password-btn">
+                <button class="btn password back">Back</button>
+                <button class="btn password next">Next</button>
+            </div>
+        </div>
+
+        <div class="box finish hidden">
+            <div class="user-box div finish-text">
+                <h3>Click finish to submit your form</h3>
+            </div>
+            <div class="btn finish-btn">
+                <button class="btn back">Back</button>
+                <button class="btn finish next">Finish</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
